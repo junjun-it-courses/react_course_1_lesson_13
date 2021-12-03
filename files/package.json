@@ -1,0 +1,20 @@
+{
+  "name": "project-jest",
+  "version": "1.0.0",
+  "description": "test lesson project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "testCoverage": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --coverage"
+  },
+  "author": "Vladimir Shaitan",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
